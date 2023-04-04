@@ -35,7 +35,7 @@ function handleSearch() {
                     Repositories
                     </button>
                     </div>
-                    <img src=${user.avatar_url} />
+                    <img class="rounded mx-auto d-block" src=${user.avatar_url} />
                 </div>`
             
            document.querySelector('#user-list').appendChild(userCard)   
