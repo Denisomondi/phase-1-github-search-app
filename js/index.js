@@ -58,8 +58,10 @@ function handleSearch() {
                   
                     let repoCard = document.createElement('li')
                     repoCard.innerHTML = `
-                    <h4> ${repo.name} </h4>
+                    <div class="list-group-item">
+                    <h4 > ${repo.name} </h4>
                     <p> ${repo.html_url}</p>
+                    </div>
                     `
                     document.querySelector('#repos-list').appendChild(repoCard)
                     
